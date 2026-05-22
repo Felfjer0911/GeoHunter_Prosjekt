@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=DM+Serif+Display:ital@0;1&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Karla:ital,wght@0,200..800;1,200..800&family=League+Spartan:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&family=Overpass:ital,wght@0,100..900;1,100..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+.s1{
+    height: 100vh;
+    background-image: url(bilder/geohunter_bg.png);
+    background-size: cover;
+    background-position: center center;
+}
+
+header{
+    height: 100px;
+    background-color: black;
+    padding: 0 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+header > .img{
+    width: 70px;
+}
+
+header > nav > ul{
+    list-style: none;
+    font-size: 27px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    text-decoration: underline;
+}
+
+header > nav > ul > li > a{
+    color: white;
+}
+
+.s1{
+    color: white;
+    text-align: center;
+    padding-top: 200px;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    letter-spacing: 1.5;
+}
+
+.s1 > h1 {
+    font-size: 100px;
+    margin-top: -20px;
+    text-transform: uppercase;
+}
+
+.s1 > h1 > span{
+    color: rgb(151, 255, 64);
+}
+
+.s1 > h3{
+    color: rgb(151, 255, 64);
+    font-size: 26px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.s1 > p > span{
+    color: rgb(151, 255, 64);
+    
+}
+
+.s1 > p {
+    margin-bottom: 8px;
+}
+
+.s1 > button{
+    background-color: rgb(151, 255, 64);
+    padding: 20px;
+    border-radius: 15px;
+    border: none;
+    font-size: 30px;
+    margin-top: 20px;
+}
+
+.s1 > button > a{
+    text-decoration: none;
+    color: black;
+}
+
+.s1 > button > a > span{
+    padding-right: 5rpx;
+}
