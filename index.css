@@ -44,7 +44,7 @@ header > nav > ul > li > a{
     letter-spacing: 1.5;
 }
 
-.s1 > h1 {
+.s1 h1 {
     font-size: 100px;
     margin-top: -20px;
     text-transform: uppercase;
@@ -54,7 +54,7 @@ header > nav > ul > li > a{
     color: rgb(151, 255, 64);
 }
 
-.s1 > h3{
+.s1 h3{
     color: rgb(151, 255, 64);
     font-size: 26px;
     font-weight: 500;
