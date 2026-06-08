@@ -1,0 +1,174 @@
+:root{
+
+    /* =========================
+       BACKGROUNDS
+    ========================= */
+
+    --bg-primary: rgb(4, 8, 35);
+    --bg-secondary: rgb(8, 15, 55);
+    --bg-card: rgb(10, 13, 60);
+    --bg-card-hover: rgb(15, 20, 80);
+
+    /* =========================
+       TEXT
+    ========================= */
+
+    --text-primary: rgb(255, 255, 255);
+    --text-secondary: rgb(210, 220, 255);
+    --text-muted: rgb(160, 170, 210);
+
+    /* =========================
+       BLUE ACCENTS
+    ========================= */
+
+    --blue-primary: rgb(72, 122, 255);
+    --blue-light: rgb(120, 170, 255);
+    --blue-bright: rgb(170, 220, 255);
+
+    /* =========================
+       PURPLE ACCENTS
+    ========================= */
+
+    --purple-primary: rgb(115, 70, 255);
+    --purple-light: rgb(160, 110, 255);
+    --purple-glow: rgb(210, 170, 255);
+
+    /* =========================
+       GREEN ACCENT
+    ========================= */
+
+    --green-primary: rgb(151, 255, 64);
+    --green-light: rgb(200, 255, 120);
+    --green-dark: rgb(120, 220, 40);
+
+    /* =========================
+       BORDERS
+    ========================= */
+
+    --border-primary: rgba(120, 140, 255, 0.35);
+    --border-light: rgba(170, 220, 255, 0.4);
+
+    /* =========================
+       SHADOWS
+    ========================= */
+
+    --shadow-blue:
+        0 0 10px rgba(72,122,255,.35),
+        0 0 30px rgba(72,122,255,.2);
+
+    --shadow-purple:
+        0 0 10px rgba(160,110,255,.4),
+        0 0 30px rgba(160,110,255,.25);
+
+    --shadow-green:
+        0 0 10px rgba(151,255,64,.5),
+        0 0 25px rgba(151,255,64,.3);
+}
+
+.HeaderOmSpillet{
+    background-color: var(--bg-card);
+    border-bottom: 1px solid #818CF8;
+}
+
+header.HeaderOmSpillet  nav ul li a div::after{
+    background-color: #818CF8;
+}
+
+header.HeaderOmSpillet nav ul li :hover{
+    color: #818CF8;
+}
+
+.s1{
+    background:
+    url(bilder/OmSpillet_bg.png);
+    height: 1024px;
+    background-size: cover;
+    background-position: center center;
+    text-align: center;
+}
+
+.s1 h1 {
+    font-size: 96px;
+    letter-spacing: 4px;
+    font-weight: 800;
+    text-transform: uppercase;
+    color: var(--text-primary);
+    text-shadow:
+        0 0 10px rgba(255,255,255,.8),
+        0 0 20px rgba(129,140,248,.8),
+        0 0 40px rgba(99,102,241,.6);
+    padding-top: 200px;
+}
+
+.s1 h3{
+    color: #818CF8;
+    font-size: 2rem;
+    font-weight: 800;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.s1 p{
+    color: var(--text-primary);
+    width: 700px;
+    margin: auto;
+    font-size: 1.3rem;
+}
+
+.s2{
+    width: min(1200px, 90%);
+    margin: 120px auto;
+
+    padding: 80px;
+
+    background: linear-gradient(
+        135deg,
+        rgb(10,13,60),
+        rgb(15,20,80)
+    );
+
+    border: 1px solid rgba(129,140,248,.35);
+
+    border-radius: 30px;
+
+    box-shadow:
+        0 0 15px rgba(99,102,241,.15),
+        0 0 40px rgba(99,102,241,.1);
+
+    overflow: hidden;
+    color: var(--text-primary);
+    margin-top: -200px;
+    
+}
+
+.s2 h2{
+    text-shadow: var(--shadow-purple);
+    margin-bottom: 30px;
+    font-size: 3rem;
+    max-width: 700px;
+    
+}
+
+.s2 > *{
+    margin: auto;
+}
+
+.s2 p{
+    color: var(--text-secondary);
+    font-size: 1.2rem;
+    line-height: 1.8;
+    max-width: 700px;
+}
+
+.goal{
+    margin-top: 35px;
+    font-size: 1.4rem;
+    font-weight: 700;
+}
+
+.goal span{
+    color: var(--green-primary);
+
+    text-shadow:
+        0 0 10px rgba(151,255,64,.5);
+}

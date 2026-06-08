@@ -1,52 +1,93 @@
 @import url('https://fonts.googleapis.com/css2?family=Alata&family=DM+Serif+Display:ital@0;1&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Karla:ital,wght@0,200..800;1,200..800&family=League+Spartan:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&family=Overpass:ital,wght@0,100..900;1,100..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
-body{
-    background-color: blueviolet;
+:root{
+    --bg-dark: rgb(11,2,32);
+    --bg-card: rgb(21,3,64);
+
+    --purple: rgb(107,33,214);
+    --purple-light: rgb(168,85,247);
+    --purple-glow: rgb(192,132,252);
+
+    --green: rgb(163,255,0);
+    --green-dark: rgb(122,230,0);
+
+    --white: rgb(255,255,255);
+    --text-muted: rgb(196,181,253);
+
+    --border: rgb(139,92,246);
 }
+
+.main{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(bilder/classicgame_bg.png);
+    background-size: cover;
+    background-position: center center;
+    padding-bottom: 50px;
+}
+
 
 .container{
     max-width: 900px;
     margin: auto;
 }
 
-header > .container{
+.header > .container{
     display: flex;
     gap: 20px;
 }
 
-header > .container > div{
-    background-color: rgba(255, 255, 255, 0.4);
-    border: 1.5px rgba(255, 255, 255, 0.6) solid;
+.header{
+    margin-bottom: 100px;
+}
+
+header.HeaderClassicgame{
+    background-color: var(--bg-dark);
+    border-bottom: var(--border) 1px solid;
+}
+
+.header > .container > div{
+    background-color: var(--bg-card);
+    border: 1.5px rgb(139,92,246) solid;
     padding: 10px;
     border-radius: 20px;
     margin-top: 30px;
 }
 
-header > .container > .logo{
+.header > .container > .logo{
     width: 20%;
 }
 
-header > .container > .rank{
+.header > .container > .rank{
     width: 70%;
     text-align: center;
 }
 
-header > .container > .rank > h6{
-    color: rgba(255, 255, 255, 0.6);
+.header > .container > .rank > h6{
+    color: white;
     letter-spacing: 1.5px;
+    font-size: 20px;
     font-family: "Plus Jakarta Sans", sans-serif;
     text-transform: uppercase;
 }
 
-header > .container > .rank > .score{
+header.HeaderClassicgame  nav ul li a div::after {
+  
+  background-color: var(--border);
+  
+}
+
+header.HeaderClassicgame nav ul li :hover{
+    color: var(--border);
+}
+
+.header > .container > .rank > .score{
     text-shadow: rgba(0, 0, 0, 0.3) 0px 2px 8px;
-    color: rgb(253 224 71);
+    color: var(--green);
     font-weight: 900;
-    font-size: 2.25rem;
+    font-size: 75px;
     font-family: "Plus Jakarta Sans", sans-serif;
 }
 
-header > .container > .taskbar{
+.header > .container > .taskbar{
     color: white;
     font-size: 30px;
     display: flex;
@@ -55,13 +96,13 @@ header > .container > .taskbar{
     gap: 5px;
 }
 
-header > .container > .taskbar > i{
+.header > .container > .taskbar > i{
     padding: 3px;
     border-radius: 5px;
     background-color: rgba(255, 255, 255, 0.15);
 }
 
-header > .container > .taskbar > i:hover{
+.header > .container > .taskbar > i:hover{
     background-color: rgba(255, 255, 255, 0.3);
 }
 
@@ -70,10 +111,15 @@ main{
 }
 
 main > .container{
-    background-color: white;
+    background: linear-gradient(
+180deg,
+rgb(34,7,82),
+rgb(11,2,32)
+);
+    border: rgb(139,92,246) 1px solid;
     max-width: 400px;
     padding: 15px;
-    margin-top: 30px;
+    margin-top: -50px;
     border-radius: 20px;
 }
 
@@ -85,8 +131,9 @@ main > .container > .display{
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #e5e7eb;
-    border: 1px solid gray;
+    background-color: var(--bg-dark);
+    color: white;
+    border: 1px solid rgb(139,92,246);
     padding: 20px;
     border-radius: 20px;
 }
@@ -94,16 +141,31 @@ main > .container > .display{
 main > .container > .display > .img{
     padding: 10px 20px;
     border-radius: 15px;
-    border: green 2.5px solid;
-    background-color: white;
+    border: rgb(168,85,247) 2.5px solid;
+    background-color: var(--purple-glow);
 
 }
 
 main > .container > .catagories > div{
     text-transform: uppercase;
     font-weight: 600;
-    background-color: #e5e7eb;
+    color: var(--text-muted);
     padding: 8px;
     border-radius: 10px;
     margin-top: 5px;
+    border: 1px solid rgb(139,92,246);
+    background: var(--bg-card);
+    transition: all 0.2s ease-in-out;
+}
+
+main > .container > .catagories > div:hover{
+    box-shadow:
+    0 0 10px rgba(168, 85, 247, 0.5),
+    0 0 25px rgba(168, 85, 247, 0.3);
+    background: linear-gradient(
+    135deg,
+    rgb(107,33,214),
+    rgb(168,85,247)
+    );
+    scale: 1.05;
 }
