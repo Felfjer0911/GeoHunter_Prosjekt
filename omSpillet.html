@@ -7,6 +7,9 @@
     <link rel="stylesheet" href="header.css" />
     <link rel="stylesheet" href="universal.css" />
     <link rel="stylesheet" href="omspillet.css" />
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
   </head>
   <body>
     <header class="HeaderOmSpillet">
@@ -22,11 +25,6 @@
           </li>
           <li>
             <a href="classicGame.html"><div class="">spill</div></a>
-          </li>
-          <li>
-            <a href="kart.html">
-              <div class="">fakta og statestikk</div>
-            </a>
           </li>
           <li>
             <a href="omSpillet.html">
@@ -48,110 +46,147 @@
         </p>
       </section>
 
-      <section class="s2">
-            <h2>Hva er GeoHunter?</h2>
-            <p>
-              GeoHunter kombinerer kunnskap, strategi og statistikk. Du får et tilfeldig land og skal velge den kategorien hvor
-            landet rangerer høyest sammenlignet med alle andre land.
-            </p>
-              <p class="goal">
-                  Målet er enkelt
-                    <span>Få lavest mulig poengsum!</span>
-              </p>
-      </section>
+      <div class="content-wrapper">
+          <section class="s2">
+                <div class="container">
+                    <h2>Hva er GeoHunter?</h2>
+                    <p>
+                      GeoHunter kombinerer kunnskap, strategi og statistikk. Du får et tilfeldig land og skal velge den kategorien hvor
+                    landet rangerer høyest sammenlignet med alle andre land.
+                    </p>
+                      <p class="goal">
+                          Målet er enkelt
+                            <span>Få lavest mulig poengsum!</span>
+                      </p>
+                </div>
+          </section>
+          
+          <section class="s3">
+          
+              <h2>Hvordan spiller man?</h2>
+          
+              <div class="steps">
+            <div class="step-card">
+                <div class="step-icon">
+                    <i class="fa-solid fa-earth-europe"></i>
+                </div>
+                <span class="step-number">01</span>
+                <h3>Få et land</h3>
+                <p>
+                    Du får presentert et tilfeldig land
+                    fra verden.
+                </p>
+            </div>
+            <div class="step-card">
+                <div class="step-icon">
+                    <i class="fa-solid fa-chart-column"></i>
+                </div>
+                <span class="step-number">02</span>
+                <h3>Analyser</h3>
+                <p>
+                    Sammenlign landet med andre land
+                    i ulike kategorier.
+                </p>
+            </div>
+            <div class="step-card">
+                <div class="step-icon">
+                    <i class="fa-solid fa-crosshairs"></i>
+                </div>
+                <span class="step-number">03</span>
+                <h3>Velg kategori</h3>
+                <p>
+                    Plasser landet i kategorien
+                    der det rangerer høyest.
+                </p>
+            </div>
+            <div class="step-card">
+                <div class="step-icon">
+                    <i class="fa-solid fa-trophy"></i>
+                </div>
+                <span class="step-number">04</span>
+                <h3>Få poeng</h3>
+                <p>
+                    Hver kategori kan kun brukes én gang.
+                    Få høyest mulig score.
+                </p>
+            </div>
+          
+              </div>
+          
+          </section>
+          <section class="s4">
 
-      <section>
-        <h2>Hvordan spiller man?</h2>
+    <h2>Kategorier</h2>
 
-        <div class="">
-            <h3>
-                FÅ ET LAND
-            </h3>
-            <p>
-                Du får presentert et
-                tilfeldig land fra verden.
-            </p>
+    <p class="category-intro">
+        Hvert land må plasseres i den kategorien hvor det rangerer høyest.
+        Velg nøye – hver kategori kan bare brukes én gang.
+    </p>
+
+    <div class="category-grid">
+
+        <div class="category-card">
+            <i class="fa-solid fa-users"></i>
+            <span>Befolkning</span>
         </div>
-        <div class="">
 
-<h3>ANALYSER</h3>
-
-<p>
-    Sammenlign landet med
-    andre land i ulike
-    kategorier.
-</p>
-        </div>
-        <div class="">
-            <h3>VELG KATEGORI</h3>
-
-<p>
-    Plasser landet i den
-    kategorien der det
-    rangerer lavest.
-</p>
-        </div>
-        <div class="">
-            <h3>FÅ POENG</h3>
-            <p>
-                Hver kategori kan bare
-                brukes én gang.
-                Få lavest mulig score!
-            </p>
-        </div>
-      </section>
-
-      <section>
-        <h2>katogorier</h2>
-        
-        <div class="">BEFOLKNING</div>
-
-        <div class="">FOTBALL</div>
-
-        <div class="">TURISME</div>
-
-        <div class="">BNP (GDP)</div>
-
-        <div class="">KRIMINALITET</div>
-
-        <div class="">
-            KVINNER I
-            PARLAMENTET
+        <div class="category-card">
+            <i class="fa-solid fa-futbol"></i>
+            <span>Fotball</span>
         </div>
 
-        <div class="">SMÅ LAND</div>
-
-        <div class="">
-            HOVEDSTADENS
-            ANDEL AV
-            BEFOLKNINGEN
+        <div class="category-card">
+            <i class="fa-solid fa-plane"></i>
+            <span>Turisme</span>
         </div>
-      </section>
 
-      <section>
-        <h2>Hvorfor spille GeoHunter?</h2>
+        <div class="category-card">
+            <i class="fa-solid fa-money-bill-trend-up"></i>
+            <span>BNP (GDP)</span>
+        </div>
+
+        <div class="category-card">
+            <i class="fa-solid fa-shield"></i>
+            <span>Kriminalitet</span>
+        </div>
+
+        <div class="category-card">
+            <i class="fa-solid fa-landmark"></i>
+            <span>Kvinner i parlamentet</span>
+        </div>
+
+        <div class="category-card">
+            <i class="fa-solid fa-seedling"></i>
+            <span>Små land</span>
+        </div>
+
+        <div class="category-card">
+            <i class="fa-solid fa-city"></i>
+            <span>Hovedstadens andel av befolkningen</span>
+        </div>
+
+    </div>
+
+</section>
+          <section class="s6">
+
+    <div class="cta-box">
+
+        <h2>Hvor godt kjenner du verden?</h2>
+
         <p>
-          GeoHunter ble laget for å gjøre geografi mer spennende og interaktivt.
-          I stedet for å pugge hovedsteder og flagg får spilleren lære om verden
-          gjennom ekte statistikk og sammenligninger.
+            Test geografikunnskapene dine og se hvor mange land du klarer å plassere riktig.
         </p>
 
-        <p>Ved å spille lærer man mer om:</p>
+        <a href="classicGame.html" class="cta-btn">
+            <i class="fa-solid fa-crosshairs"></i>
+            Start spillet
+        </a>
 
-        <ul>
-          <li>Verdens land</li>
-          <li>Befolkning og økonomi</li>
-          <li>Kultur og sport</li>
-          <li>Internasjonale forskjeller</li>
-          <li>Geografiske mønstre</li>
-        </ul>
-      </section>
+    </div>
 
-      <section>
-        <h2>Hvor godt kjenner du verden?</h2>
-        <p>Test kunnskapene dine nå!</p>
-        <button>start spillet</button>
-      </section>
+</section>
+      </div>
     </main>
   </body>
 </html>
