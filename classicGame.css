@@ -125,9 +125,9 @@ rgb(11,2,32)
 
 main > .container > .display{
     margin: auto;
-    max-width: 200px;
     font-size: 30px;
     font-weight: 600;
+    text-align: center;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -148,6 +148,8 @@ main > .container > .display > .img{
 
 main > .container > .catagories > div{
     text-transform: uppercase;
+    display: flex;
+    justify-content: space-between;
     font-weight: 600;
     color: var(--text-muted);
     padding: 8px;

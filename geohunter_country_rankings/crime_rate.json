@@ -1,0 +1,406 @@
+{
+  "category": "Crime Rate",
+  "unit": "crime index score (0-100)",
+  "countries": {
+    "Venezuela": {
+      "rank": 1,
+      "value": 83.0
+    },
+    "Papua New Guinea": {
+      "rank": 2,
+      "value": 80.0
+    },
+    "Afghanistan": {
+      "rank": 3,
+      "value": 78.0
+    },
+    "Haiti": {
+      "rank": 4,
+      "value": 77.0
+    },
+    "South Africa": {
+      "rank": 5,
+      "value": 75.0
+    },
+    "Belize": {
+      "rank": 6,
+      "value": 74.0
+    },
+    "Trinidad and Tobago": {
+      "rank": 7,
+      "value": 72.0
+    },
+    "Jamaica": {
+      "rank": 8,
+      "value": 70.0
+    },
+    "Brazil": {
+      "rank": 9,
+      "value": 68.0
+    },
+    "Peru": {
+      "rank": 10,
+      "value": 66.0
+    },
+    "Nigeria": {
+      "rank": 11,
+      "value": 64.0
+    },
+    "Mexico": {
+      "rank": 12,
+      "value": 63.0
+    },
+    "Argentina": {
+      "rank": 13,
+      "value": 62.0
+    },
+    "Colombia": {
+      "rank": 14,
+      "value": 61.0
+    },
+    "Angola": {
+      "rank": 15,
+      "value": 60.0
+    },
+    "Ecuador": {
+      "rank": 16,
+      "value": 59.0
+    },
+    "Bolivia": {
+      "rank": 17,
+      "value": 58.0
+    },
+    "Iraq": {
+      "rank": 18,
+      "value": 57.0
+    },
+    "Zimbabwe": {
+      "rank": 19,
+      "value": 56.0
+    },
+    "Libya": {
+      "rank": 20,
+      "value": 55.0
+    },
+    "Kenya": {
+      "rank": 21,
+      "value": 54.0
+    },
+    "Bangladesh": {
+      "rank": 22,
+      "value": 53.0
+    },
+    "Uganda": {
+      "rank": 23,
+      "value": 52.0
+    },
+    "Cameroon": {
+      "rank": 24,
+      "value": 51.0
+    },
+    "Mozambique": {
+      "rank": 25,
+      "value": 50.0
+    },
+    "Zambia": {
+      "rank": 26,
+      "value": 49.0
+    },
+    "Dominican Republic": {
+      "rank": 27,
+      "value": 48.0
+    },
+    "Guatemala": {
+      "rank": 28,
+      "value": 47.0
+    },
+    "Pakistan": {
+      "rank": 29,
+      "value": 46.0
+    },
+    "Paraguay": {
+      "rank": 30,
+      "value": 45.5
+    },
+    "Ethiopia": {
+      "rank": 31,
+      "value": 45.0
+    },
+    "Tanzania": {
+      "rank": 32,
+      "value": 44.0
+    },
+    "Botswana": {
+      "rank": 33,
+      "value": 43.5
+    },
+    "Ghana": {
+      "rank": 34,
+      "value": 43.0
+    },
+    "Fiji": {
+      "rank": 35,
+      "value": 42.5
+    },
+    "Ivory Coast": {
+      "rank": 36,
+      "value": 42.0
+    },
+    "Senegal": {
+      "rank": 37,
+      "value": 41.0
+    },
+    "Costa Rica": {
+      "rank": 38,
+      "value": 40.5
+    },
+    "Philippines": {
+      "rank": 39,
+      "value": 40.0
+    },
+    "Iran": {
+      "rank": 40,
+      "value": 39.0
+    },
+    "India": {
+      "rank": 41,
+      "value": 38.0
+    },
+    "Uruguay": {
+      "rank": 42,
+      "value": 37.5
+    },
+    "Sri Lanka": {
+      "rank": 43,
+      "value": 37.0
+    },
+    "Panama": {
+      "rank": 44,
+      "value": 36.5
+    },
+    "Malaysia": {
+      "rank": 45,
+      "value": 36.0
+    },
+    "Kazakhstan": {
+      "rank": 46,
+      "value": 35.5
+    },
+    "Egypt": {
+      "rank": 47,
+      "value": 35.0
+    },
+    "Thailand": {
+      "rank": 48,
+      "value": 34.5
+    },
+    "Russia": {
+      "rank": 49,
+      "value": 34.0
+    },
+    "Mauritius": {
+      "rank": 50,
+      "value": 33.5
+    },
+    "Cuba": {
+      "rank": 51,
+      "value": 33.0
+    },
+    "Tunisia": {
+      "rank": 52,
+      "value": 32.0
+    },
+    "United States": {
+      "rank": 53,
+      "value": 31.5
+    },
+    "Algeria": {
+      "rank": 54,
+      "value": 31.0
+    },
+    "Chile": {
+      "rank": 55,
+      "value": 30.5
+    },
+    "Morocco": {
+      "rank": 56,
+      "value": 30.0
+    },
+    "Sweden": {
+      "rank": 57,
+      "value": 29.5
+    },
+    "Nepal": {
+      "rank": 58,
+      "value": 29.0
+    },
+    "France": {
+      "rank": 59,
+      "value": 28.5
+    },
+    "Indonesia": {
+      "rank": 60,
+      "value": 28.0
+    },
+    "Turkey": {
+      "rank": 61,
+      "value": 27.0
+    },
+    "Belgium": {
+      "rank": 62,
+      "value": 26.5
+    },
+    "Greece": {
+      "rank": 63,
+      "value": 26.0
+    },
+    "Rwanda": {
+      "rank": 64,
+      "value": 25.5
+    },
+    "Ukraine": {
+      "rank": 65,
+      "value": 25.0
+    },
+    "Italy": {
+      "rank": 66,
+      "value": 24.5
+    },
+    "Romania": {
+      "rank": 67,
+      "value": 24.0
+    },
+    "Australia": {
+      "rank": 68,
+      "value": 23.5
+    },
+    "Canada": {
+      "rank": 69,
+      "value": 23.2
+    },
+    "United Kingdom": {
+      "rank": 70,
+      "value": 23.0
+    },
+    "Ireland": {
+      "rank": 71,
+      "value": 22.5
+    },
+    "Spain": {
+      "rank": 72,
+      "value": 22.0
+    },
+    "Serbia": {
+      "rank": 73,
+      "value": 21.5
+    },
+    "Germany": {
+      "rank": 74,
+      "value": 21.0
+    },
+    "Malta": {
+      "rank": 75,
+      "value": 20.5
+    },
+    "Vietnam": {
+      "rank": 76,
+      "value": 20.0
+    },
+    "Estonia": {
+      "rank": 77,
+      "value": 19.5
+    },
+    "Israel": {
+      "rank": 78,
+      "value": 19.0
+    },
+    "Netherlands": {
+      "rank": 79,
+      "value": 18.5
+    },
+    "Hungary": {
+      "rank": 80,
+      "value": 18.0
+    },
+    "New Zealand": {
+      "rank": 81,
+      "value": 17.5
+    },
+    "Poland": {
+      "rank": 82,
+      "value": 17.0
+    },
+    "North Korea": {
+      "rank": 83,
+      "value": 16.5
+    },
+    "Czechia": {
+      "rank": 84,
+      "value": 16.0
+    },
+    "South Korea": {
+      "rank": 85,
+      "value": 15.5
+    },
+    "Portugal": {
+      "rank": 86,
+      "value": 15.0
+    },
+    "China": {
+      "rank": 87,
+      "value": 14.5
+    },
+    "Croatia": {
+      "rank": 88,
+      "value": 14.0
+    },
+    "Luxembourg": {
+      "rank": 89,
+      "value": 13.5
+    },
+    "Saudi Arabia": {
+      "rank": 90,
+      "value": 13.0
+    },
+    "Austria": {
+      "rank": 91,
+      "value": 12.0
+    },
+    "Denmark": {
+      "rank": 92,
+      "value": 11.0
+    },
+    "Norway": {
+      "rank": 93,
+      "value": 10.0
+    },
+    "Finland": {
+      "rank": 94,
+      "value": 9.5
+    },
+    "Switzerland": {
+      "rank": 95,
+      "value": 9.0
+    },
+    "United Arab Emirates": {
+      "rank": 96,
+      "value": 8.5
+    },
+    "Singapore": {
+      "rank": 97,
+      "value": 8.0
+    },
+    "Qatar": {
+      "rank": 98,
+      "value": 7.5
+    },
+    "Japan": {
+      "rank": 99,
+      "value": 7.0
+    },
+    "Iceland": {
+      "rank": 100,
+      "value": 6.0
+    }
+  }
+}

@@ -3,71 +3,173 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>GeoHunter</title>
+
     <link rel="stylesheet" href="universal.css">
     <link rel="stylesheet" href="classicGame.css">
-     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
-        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
-        <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="header.css">
+
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+          integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+          crossorigin="anonymous"
+          referrerpolicy="no-referrer" />
 </head>
 <body>
+
     <header class="HeaderClassicgame">
-        <div class="img"><a href="index.html"><img src="bilder/geohunter-logo.webp" alt=""></a></div>
+        <div class="img">
+            <a href="index.html">
+                <img src="bilder/geohunter-logo.webp" alt="">
+            </a>
+        </div>
+
         <nav>
             <ul>
                 <li>
                     <a href="index.html">
-                        <div class="">hjem</div>
+                        <div>hjem</div>
                     </a>
                 </li>
+
                 <li>
-                    <a href="classicGame.html"><div class="">spill</div></a>
+                    <a href="classicGame.html">
+                        <div>spill</div>
+                    </a>
                 </li>
+
                 <li>
                     <a href="omSpillet.html">
-                        <div class="">om spillet</div>
+                        <div>om spillet</div>
                     </a>
                 </li>
             </ul>
         </nav>
     </header>
+
     <section class="main">
-        
+
         <section class="header">
             <div class="container">
+
                 <div class="logo">
-                    <a href="index.html"><img src="bilder/geohunter-logo.webp" alt=""></a>
+                    <a href="index.html">
+                        <img src="bilder/geohunter-logo.webp" alt="">
+                    </a>
                 </div>
+
                 <div class="rank">
                     <h6>total rank</h6>
                     <p class="score">0</p>
                 </div>
+
                 <div class="taskbar">
                     <i class="fa-solid fa-circle-info"></i>
-                    <i class="fa-solid fa-arrows-rotate"></i>
+                    <i class="fa-solid fa-arrows-rotate" onclick="resetGame()"></i>
                     <i class="fa-solid fa-gear"></i>
                 </div>
+
             </div>
         </section>
+
         <main>
             <div class="container">
+
                 <section class="display">
-                    <div class="img">🇳🇴</div>
-                    <div>Norway</div>
+                    <div class="img">🌍</div>
+                    <div id="country">Loading...</div>
                 </section>
+
                 <section class="catagories">
-                    <div>👥 population</div>
-                    <div>⚽️ football</div>
-                    <div>🏝️ small size</div>
-                    <div>🚨 crime rate</div>
-                    <div>✈️ tourisme</div>
-                    <div>💰 gdp</div>
-                    <div>🏛️ prosentage of population in capital</div>
-                    <div>🙋‍♀️ women in parlament</div>
+
+                    <div class="category"
+                         data-category="population"
+                         onclick="showRank('population')">
+                        👥 population
+                        <p class="countryRank">
+                            <span class="countryFlag">🌍</span>
+                            <span class="rankValue">0</span>
+                        </p>
+                    </div>
+
+                    <div class="category"
+                         data-category="football_performance"
+                         onclick="showRank('football_performance')">
+                        ⚽ football
+                        <p class="countryRank">
+                            <span class="countryFlag">🌍</span>
+                            <span class="rankValue">0</span>
+                        </p>
+                    </div>
+
+                    <div class="category"
+                         data-category="small_country_size"
+                         onclick="showRank('small_country_size')">
+                        🏝️ small size
+                        <p class="countryRank">
+                            <span class="countryFlag">🌍</span>
+                            <span class="rankValue">0</span>
+                        </p>
+                    </div>
+
+                    <div class="category"
+                         data-category="crime_rate"
+                         onclick="showRank('crime_rate')">
+                        🚨 crime rate
+                        <p class="countryRank">
+                            <span class="countryFlag">🌍</span>
+                            <span class="rankValue">0</span>
+                        </p>
+                    </div>
+
+                    <div class="category"
+                         data-category="tourism"
+                         onclick="showRank('tourism')">
+                        ✈️ tourism
+                        <p class="countryRank">
+                            <span class="countryFlag">🌍</span>
+                            <span class="rankValue">0</span>
+                        </p>
+                    </div>
+
+                    <div class="category"
+                         data-category="gdp"
+                         onclick="showRank('gdp')">
+                        💰 gdp
+                        <p class="countryRank">
+                            <span class="countryFlag">🌍</span>
+                            <span class="rankValue">0</span>
+                        </p>
+                    </div>
+
+                    <div class="category"
+                         data-category="capital_city_population_pct"
+                         onclick="showRank('capital_city_population_pct')">
+                        🏛️ capital
+                        <p class="countryRank">
+                            <span class="countryFlag">🌍</span>
+                            <span class="rankValue">0</span>
+                        </p>
+                    </div>
+
+                    <div class="category"
+                         data-category="women_in_parliament"
+                         onclick="showRank('women_in_parliament')">
+                        🙋‍♀️ women in parliament
+                        <p class="countryRank">
+                            <span class="countryFlag">🌍</span>
+                            <span class="rankValue">0</span>
+                        </p>
+                    </div>
+
                 </section>
+
             </div>
         </main>
+
     </section>
+
+    <script src="classicGame.js"></script>
+
 </body>
 </html>
